@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Connect | Webview</title>
+    <link rel="icon" href="data:;base64,=">
+  </head>
+
+  <body>
+    <div>
+      <h1>Connect Webview Example</h1>
+
+      <div>
+        <h2>System</h2>
+        <div>
+          <p id="network-status"></p>
+          <p id="connect-resource"></p>  
+        </div>
+      </div>
+
+      <div>
+        <h2>Resource Pool</h2>
+        <p>
+          <span id="resource-pool"></span> | 
+          <span id="operator-status"></span>
+        </p>
+        <button type="button" id="button-call">Call</button>
+      </div>
+
+      <div>
+        <h2>Navigation</h2>
+        <select id="location-list"></select>   
+      </div>
+
+      <div>
+        <h2>Movement</h2>
+        <button type="button" id="button-turn">Turn</button>
+        <button type="button" id="button-tilt">Tilt</button>
+      </div>
+
+      <div>
+        <h2>Speech</h2>
+        <button type="button" id="button-speak">Speak</button>
+      </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/system.js"></script>
+    <script src="js/resource-pool.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/movement.js"></script>
+    <script src="js/speech.js"></script>
+  </body>
+</html>
